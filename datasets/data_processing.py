@@ -17,7 +17,7 @@ def get_neuronID2type_dic():
 
 
 def get_skeleton(save_path):
-    TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjE0Mjg3NTYxNjhAcXEuY29tIiwibGV2ZWwiOiJub2F1dGgiLCJpbWFnZS11cmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BSXRidm1ucHpZbGZCRTN0QlVyeERNY0ZONkVKeUhwVmJFVE15VDlZOURiZj1zOTYtYz9zej01MD9zej01MCIsImV4cCI6MTgzNzg1MDAxM30.qvtyuLhA6Qs6y0GQbBA4TRi8tJr1YmKqmk3xpqEnbxo"  # <--- Paste your token here
+    TOKEN = " replace your token"  # <--- Paste your token here, from https://neuprint.janelia.org/account for raw HemiBrain dataset
     # (or define NEUPRINT_APPLICATION CREDENTIALS in your environment
 
     c = Client('neuprint.janelia.org', 'hemibrain:v1.2.1', TOKEN)
