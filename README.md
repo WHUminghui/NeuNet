@@ -33,7 +33,7 @@ Source Code
 ...
 ```
 
-Download relative datasets from [here](https://drive.google.com/drive/folders/1adpq49VKfUyH7SXh-G5DznlIXsGVj1Eu?usp=drive_link). And put it(H01 and HemiBrain) on 'datasets/'. 
+Download relative datasets from [here](https://drive.google.com/drive/folders/1adpq49VKfUyH7SXh-G5DznlIXsGVj1Eu?usp=drive_link). And put it(H01 and HemiBrain) on 'data/'. 
 ### Run
 python main.py
 
