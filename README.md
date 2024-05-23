@@ -13,6 +13,26 @@ Code and Data about 《Joint Learning Neuronal Skeleton and Brain Circuit Topolo
 * torch-sparse==0.6.14
 * CUDA==11.1
 ### Code Structure
+```
+Source Code
+├── data
+|   ├──Hemibrain
+|   |   ├── Connectome
+|   |   |    ├──raw
+|   |   |    └──processed
+|   |   └── Skeleton
+|   |   |    ├──raw
+|   |   |    └──processed
+|   └──H01
+|   |   ├── Connectome
+|   |   |    ├──raw
+|   |   |    └──processed
+|   |   └── Skeleton
+|   |   |    ├──raw
+|   |   |    └──processed
+...
+```
+
 Download relative datasets from [here](https://drive.google.com/drive/folders/1adpq49VKfUyH7SXh-G5DznlIXsGVj1Eu?usp=drive_link). And put it(H01 and HemiBrain) on 'datasets/'. 
 ### Run
 python main.py
