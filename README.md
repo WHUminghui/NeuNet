@@ -34,6 +34,11 @@ Source Code
 ```
 
 Download relative datasets from [here](https://drive.google.com/drive/folders/1adpq49VKfUyH7SXh-G5DznlIXsGVj1Eu?usp=drive_link). And put it(H01 and HemiBrain) on 'data/'. 
+
+For each dataset it should be constructed separately for its Skeleton data and Connectome data, and then each of them corresponds to a floder that includes '... /raw/' and ' .../processed/' files.
+
+The raw data will be different from one data to another, so I don't provide how to process from a raw data to ' ... /raw/' form. But for each dataset I have provided how to process the data from '... /raw/' to '.../processed/' , e.g. 'datasets/HemiSkeleton.py'. You can delete the ' .../processed' folder of the data or change the name, and 'datasets/HemiSkeleton.py' will demonstrate how to get 'HemiBrain/Skeleton/processed/' from 'HemiBrain/Skeleton/raw/' that can be used directly by NeuNet. In summary, if you want to swap in your own dataset, you'll want to prepare your own '... /raw/' folder for Skeleton and Connectome, and then similar to HemiSkeleton.py and HemiConnectome.py, build your own '... /processed/' file for Skeleton and Connectome, respectively.
+
 ### Run
 python main.py
 
