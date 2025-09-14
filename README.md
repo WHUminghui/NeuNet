@@ -43,3 +43,28 @@ The raw data will be different from one data to another, so I don't provide how 
 ### Run
 python main.py
 
+### Cite
+
+If this code is helpful to your work, please cite the following papers:
+
+```bibtex
+@inproceedings{liao2024joint,
+  title={Joint learning neuronal skeleton and brain circuit topology with permutation invariant encoders for neuron classification},
+  author={Liao, Minghui and Wan, Guojia and Du, Bo},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={1},
+  pages={197--205},
+  year={2024}
+}
+
+@article{liao2025building,
+  title={Building connectome analysis tools with representation learning on neuronal skeleton and circuit topology},
+  author={Liao, Minghui and Wan, Guojia and Hu, Wenbin and Du, Bo},
+  journal={Neural Networks},
+  pages={107603},
+  year={2025},
+  publisher={Elsevier}
+}
+
+
